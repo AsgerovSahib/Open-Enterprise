@@ -1,0 +1,100 @@
+@media screen and (max-width: 400px) {
+  /* place here CSS for when the screen is less than 1000px wide */
+*{
+    box-sizing: border-box;
+}
+  h1 {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .header-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header-bottom h2 {
+    order: 2;
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    text-align: center;
+    width: 276px;
+    margin: 28px auto 0;
+  }
+  .header-bottom p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    text-align: center;
+    width: 291px;
+    margin: 24px auto 69px;
+    order: 3;
+  }
+  .header-bottom button {
+    order: 4;
+    margin: 0 auto;
+  }
+  .header-bottom img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    order: 5;
+  }
+  /* Reimagining */
+  .Reimagining h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    /* background-color: brown; */
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  width: 427px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Reimagining-box-body {
+    width: 310px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0px 11px 20px 11px;
+  
+}
+
+.box img{
+    width: 88px;
+    margin: 64px 161px 24px 162px ;
+    
+}
+
+
+
+
+
+
+
+
+}
