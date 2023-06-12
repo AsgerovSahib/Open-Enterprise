@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   /* place here CSS for when the screen is less than 1000px wide */
 *{
     box-sizing: border-box;
@@ -89,12 +89,29 @@
     margin: 64px 161px 24px 162px ;
     
 }
+.kickstart{
+  display: none;
+  flex-direction: column;
+}
+.jassir-in {
+  display: none;
+flex-direction: column;
+}
+.engage {
+display: none;
+}
+.help{
+  display: none;
+}
 
-
-
-
-
-
-
+.update{
+  display: none;
+}
+footer{
+  display: none;
+}
+.end{
+  display: none;
+}
 
 }
